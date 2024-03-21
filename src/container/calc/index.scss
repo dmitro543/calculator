@@ -1,9 +1,7 @@
-@use '../../style' as s;
 
 main {
 	background: rgba(36, 36, 36, 1);
-	color: s.color(light);
-	padding: s.space(5);
+	padding: 16px;
 	width: 350px;
 	border-radius: 8px;
 	margin: 0 auto;
@@ -43,4 +41,5 @@ button {
 	padding: 14px;
 	text-align: end;
 	height: 50px;
+	color: #fff;
 }
